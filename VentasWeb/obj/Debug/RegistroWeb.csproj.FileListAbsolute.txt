@@ -1,0 +1,4 @@
+C:\Users\gabou\OneDrive\Documentos\Complexivo\VentasWeb\VentasWeb\obj\Debug\RegistroWeb.csproj.AssemblyReference.cache
+C:\Users\gabou\OneDrive\Documentos\Complexivo\VentasWeb\VentasWeb\obj\Debug\RegistroWeb.csproj.CoreCompileInputs.cache
+C:\Users\gabou\OneDrive\Documentos\Complexivo\VentasWeb\VentasWeb\obj\Debug\VentasWeb.dll
+C:\Users\gabou\OneDrive\Documentos\Complexivo\VentasWeb\VentasWeb\obj\Debug\VentasWeb.pdb
