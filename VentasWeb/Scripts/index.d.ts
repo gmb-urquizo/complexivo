@@ -1,15 +1,4 @@
-/**
- * @fileoverview This file only declares the public portions of the API.
- * It should not define internal pieces such as utils or modifier details.
- *
- * Original definitions by: edcarroll <https://github.com/edcarroll>, ggray <https://github.com/giladgray>, rhysd <https://rhysd.github.io>, joscha <https://github.com/joscha>, seckardt <https://github.com/seckardt>, marcfallows <https://github.com/marcfallows>
- */
 
-/**
- * This kind of namespace declaration is not necessary, but is kept here for backwards-compatibility with
- * popper.js 1.x. It can be removed in 2.x so that the default export is simply the Popper class
- * and all the types / interfaces are top-level named exports.
- */
 declare namespace Popper {
   export type Position = 'top' | 'right' | 'bottom' | 'left';
 
@@ -139,8 +128,6 @@ declare namespace Popper {
   }
 }
 
-// Re-export types in the Popper namespace so that they can be accessed as top-level named exports.
-// These re-exports should be removed in 2.x when the "declare namespace Popper" syntax is removed.
 export type Padding = Popper.Padding;
 export type Position = Popper.Position;
 export type Placement = Popper.Placement;

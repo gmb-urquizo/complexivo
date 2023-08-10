@@ -38,7 +38,7 @@
                             <div class="input-group-prepend">
                                 <label class="input-group-text bg-info text-white" for="inputGroupSelect01">Fecha de Venta</label>
                             </div>
-                            <input id="txtfechaventa" readonly type="text" class="form-control">
+                            <input id="txtfechaventa" readonly type="text" class="form-control ">
                         </div>
                     </div>
                 </div>
@@ -137,23 +137,20 @@
                                     <div class="col-sm-3">
                                         <div class="form-group mb-0">
                                             <label for="txtRazonSocialProveedor" class="col-form-label col-form-label-sm">Tipo Documento:</label>
-                                            <select class="form-control form-control-sm model" id="cboclientetipodocumento" name="Rol">
-                                                <option value="DNI">DNI</option>
-                                                <option value="Carnet Extranjeria">Carnet Extranjeria</option>
-                                                <option value="RUC">RUC</option>
-                                            </select>
+                                            <input type="text" class="form-control form-control-sm model" readonly id="cboclientetipodocumento" name="Rol" autocomplete="off">
+                                                
                                         </div>
                                     </div>
                                     <div class="col-sm-3">
                                         <div class="form-group mb-0">
                                             <label for="txtRazonSocialProveedor" class="col-form-label col-form-label-sm">Numero Documento: <span class="required">*</span> </label>
-                                            <input type="text" class="form-control form-control-sm model" id="txtclientedocumento" name="RazonSocial" autocomplete="off">
+                                            <input type="text" class="form-control form-control-sm model" readonly id="txtclientedocumento" name="RazonSocial" autocomplete="off">
                                         </div>
                                     </div>
                                     <div class="col-sm-4">
                                         <div class="form-group mb-0">
                                             <label for="txtRazonSocialProveedor" class="col-form-label col-form-label-sm">Nombres: <span class="required">*</span></label>
-                                            <input type="text" class="form-control form-control-sm model" id="txtclientenombres" name="RazonSocial" autocomplete="off">
+                                            <input type="text" class="form-control form-control-sm model" readonly id="txtclientenombres" name="RazonSocial" autocomplete="off">
                                         </div>
                                     </div>
                                     <div class="col-sm-2">
@@ -166,13 +163,13 @@
                                     <div class="col-sm-6">
                                         <div class="form-group mb-0">
                                             <label for="txtRazonSocialProveedor" class="col-form-label col-form-label-sm">Direccion:</label>
-                                            <input type="text" class="form-control form-control-sm model" id="txtclientedireccion" name="clientedireccion" autocomplete="off">
+                                            <input type="text" class="form-control form-control-sm model" readonly id="txtclientedireccion" name="clientedireccion" autocomplete="off">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group mb-0">
                                             <label for="txtRazonSocialProveedor" class="col-form-label col-form-label-sm">Telefono:</label>
-                                            <input type="text" class="form-control form-control-sm model" id="txtclientetelefono" name="RazonSocial" autocomplete="off">
+                                            <input type="text" class="form-control form-control-sm model" readonly id="txtclientetelefono" name="RazonSocial" autocomplete="off">
                                         </div>
                                     </div>
                                 </div>
@@ -188,7 +185,7 @@
                                     <div class="col-sm-3">
                                         <div class="form-group mb-0">
                                             <label for="txtproductocodigo" class="col-form-label col-form-label-sm">Codigo: <span class="required">*</span></label>
-                                            <input type="text" class="form-control form-control-sm model" id="txtproductocodigo" name="Codigo" autocomplete="off">
+                                            <input type="text" class="form-control form-control-sm model" readonly id="txtproductocodigo" name="Codigo" autocomplete="off">
                                         </div>
                                     </div>
                                     <div class="col-sm-3">
