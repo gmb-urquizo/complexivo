@@ -1881,7 +1881,6 @@
     <Content Include="Content\Plugins\jquery-ui-1.12.1\jquery-ui.min.js" />
     <Content Include="Content\Plugins\sweetalert2\css\sweetalert.css" />
     <Content Include="Content\Plugins\sweetalert2\js\sweetalert.js" />
-    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Imagenes\carrusel 1.jpg" />
